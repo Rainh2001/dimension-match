@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  height: 100vh;
+  background-color: aliceblue;
+  gap: 1rem;
+  padding: 1rem;
+
+  & > * {
+    flex-basis: 50%;
+    height: 100%;
+  }
+}
